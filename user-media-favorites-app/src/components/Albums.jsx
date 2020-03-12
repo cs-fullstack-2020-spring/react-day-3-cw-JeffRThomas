@@ -4,10 +4,14 @@ class Albums extends Component {
     constructor(props) {
         super(props);
     };
+
+    componentDidMount() {
+        console.log("Albums child did mount.");
+    }
     render() {
         return (
             <div>
-            {/*Reference Check!! *Two Thumbs Up* */}
+                {/*Reference Check!! *Two Thumbs Up* */}
             </div>
         )
     };

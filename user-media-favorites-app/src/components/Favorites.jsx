@@ -12,6 +12,7 @@ class Favorites extends Component {
     };
     render() {
         let moviesArray = [];
+        let albumArray = [];
         return (
             <div>
                 <h1> This is a list of your favorite movies and albums</h1>
@@ -30,6 +31,21 @@ class Favorites extends Component {
                 }
                 {
                     console.log(moviesArray)//Verify array holds user input values
+                }
+                {
+                    this.user1stAlbum = prompt("Enter you favorite album:")
+                }
+                {
+                    albumArray.push(this.user1stAlbum)
+                }
+                {
+                    this.user2ndAlbum = prompt("Enter your second favorite album:")
+                }
+                {
+                    moviesArray.push(this.user2ndAlbum)
+                }
+                {
+                    console.log(albumArray)//Verify array holds user input values
                 }
             </div>
         )
