@@ -7,7 +7,7 @@ class Movies extends Component {
     render() {
         return (
             <div>
-            /* Reference Check! *One Thumb Up* */
+            {/* Reference Check! *One Thumb Up* */}
             </div>
         )
     };

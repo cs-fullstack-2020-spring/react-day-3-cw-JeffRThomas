@@ -7,7 +7,7 @@ class Albums extends Component {
     render() {
         return (
             <div>
-            /* Reference Check!! *Two Thumbs Up* */
+            {/*Reference Check!! *Two Thumbs Up* */}
             </div>
         )
     };
